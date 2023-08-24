@@ -10,13 +10,14 @@ import {
   CContainer,
 } from '@coreui/react'
 
+
 function Analysis() {
   return (
     <div>
-      <CContainer>
-        <CRow className="row-spacing">
-          <CCol xs={6} sm={6}>
-            <CCard>
+      <CContainer >
+        <CRow>
+          <CCol sm={6}>
+            <CCard className='ccard'>
               <CCardBody>
                 <CCardTitle>IQOQ Database Monitoring</CCardTitle>
                 <CCardText>Monitors the IQOQ Request table for any failures.</CCardText>
@@ -25,7 +26,7 @@ function Analysis() {
             </CCard>
           </CCol>
           <CCol sm={6}>
-            <CCard>
+            <CCard className='ccard'>
               <CCardBody>
                 <CCardTitle>SDLC-AM integration failure</CCardTitle>
                 <CCardText>
@@ -35,10 +36,8 @@ function Analysis() {
               </CCardBody>
             </CCard>
           </CCol>
-        </CRow>
-        <CRow className="row-spacing">
           <CCol sm={6}>
-            <CCard>
+            <CCard className='ccard'>
               <CCardBody>
                 <CCardTitle>EDMS-EDMS Viewer Rendition Monitoring</CCardTitle>
                 <CCardText>
@@ -50,7 +49,7 @@ function Analysis() {
             </CCard>
           </CCol>
           <CCol sm={6}>
-            <CCard>
+            <CCard className='ccard'>
               <CCardBody>
                 <CCardTitle>Report of SUMMIT document</CCardTitle>
                 <CCardText>
