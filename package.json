@@ -1,8 +1,8 @@
 {
+  "homepage": "https://ashish016.github.io/edms",
   "name": "EDMS",
   "version": "4.5.0",
   "description": "EDMS",
-  "homepage": ".",
   "bugs": {
     "url": ""
   },
@@ -16,8 +16,8 @@
     "test": "react-scripts test",
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@coreui/chartjs": "^3.1.2",
