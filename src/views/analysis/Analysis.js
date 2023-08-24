@@ -21,7 +21,7 @@ function Analysis() {
               <CCardBody>
                 <CCardTitle>IQOQ Database Monitoring</CCardTitle>
                 <CCardText>Monitors the IQOQ Request table for any failures.</CCardText>
-                <CButton href="">More Details</CButton>
+                <CButton href="/datatable#/datatable">More Details</CButton>
               </CCardBody>
             </CCard>
           </CCol>
@@ -32,7 +32,7 @@ function Analysis() {
                 <CCardText>
                   Monitors the AM integration table for failuressame with the Support DL.
                 </CCardText>
-                <CButton href="">More Details</CButton>
+                <CButton href="/datatable#/datatable">More Details</CButton>
               </CCardBody>
             </CCard>
           </CCol>
@@ -44,7 +44,7 @@ function Analysis() {
                   Monitor for document not published into EDMS Viewer due to no Rendition present in
                   EDMS.
                 </CCardText>
-                <CButton href="">More Details</CButton>
+                <CButton href="/datatable#/datatable">More Details</CButton>
               </CCardBody>
             </CCard>
           </CCol>
@@ -56,7 +56,7 @@ function Analysis() {
                   Generate a report in excel combining all feed excel files weekly, monthly and
                   share the same with the Support DL.
                 </CCardText>
-                <CButton href="">More Details</CButton>
+                <CButton href="/datatable#/datatable">More Details</CButton>
               </CCardBody>
             </CCard>
           </CCol>
