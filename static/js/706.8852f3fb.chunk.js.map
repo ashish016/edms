@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/706.8852f3fb.chunk.js","mappings":"iIAQA,UANA,WACE,OACEA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,YAET,C","sources":["views/analysis/Analysis.js"],"sourcesContent":["import React from 'react'\r\n\r\nfunction Analysis() {\r\n  return (\r\n    <div>Analysis</div>\r\n  )\r\n}\r\n\r\nexport default Analysis"],"names":["_jsx","children"],"sourceRoot":""}
